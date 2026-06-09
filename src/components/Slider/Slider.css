@@ -1,0 +1,62 @@
+.Slider {
+  background-color: var(--secondary-bg);
+}
+.Slider .swiper-box {
+  position: relative;
+  padding-top: 10px;
+}
+.Slider .swiper-box .swiper-button-next {
+  background-color: var(--bg-nav-footer);
+  position: absolute;
+  top: 0;
+  right: 20px;
+  color: var(--white);
+  padding: 10px;
+  border-radius: 6px;
+  width: 40px;
+  height: 40px;
+}
+
+.Slider .swiper-box .swiper-button-prev {
+  background-color: var(--bg-nav-footer);
+  position: absolute;
+  top: 0;
+  right: 70px;
+  left: auto;
+  padding: 10px;
+  color: var(--white);
+  padding: 10px;
+  border-radius: 6px;
+  width: 40px;
+  height: 40px;
+}
+.Slider .mySwiper {
+  padding: 20px;
+  position: static;
+}
+.Slider .mySwiper .card {
+  border: 2px solid var(--secondary-bg);
+  border-radius: 6px;
+  background-color: var(--white);
+}
+.Slider .mySwiper .card img {
+  height: 200px;
+  object-fit: contain;
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  display: block;
+}
+.Slider .mySwiper .card .card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  padding: 10px;
+  border-top: 2px solid var(--secondary-bg);
+  margin-top: 10px;
+}
+
+.Slider .btn-primary {
+  width: 100%;
+}

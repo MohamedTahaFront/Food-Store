@@ -1,0 +1,59 @@
+.Header {
+  background: url(../../assets/images/hero.png) bottom no-repeat;
+  background-size: cover;
+}
+
+.Header .row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.Header .image {
+  text-align: end;
+}
+@media (max-width: 767px) {
+  .Header .image {
+    text-align: center;
+  }
+  .Header .row {
+    grid-template-columns: 1fr;
+  }
+}
+.Header .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.Header .info .line {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.Header .container .straw {
+  height: 250px;
+  animation: straw 1s infinite linear alternate;
+}
+
+@keyframes straw {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@media (max-width: 767px) {
+  .Header .container .straw {
+    height: 150px;
+  }
+  @keyframes straw {
+    0% {
+      transform: translateX(10px);
+    }
+    100% {
+      transform: translateX(-10px);
+    }
+  }
+}

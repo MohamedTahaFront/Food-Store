@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "title": "Classic Beef Burger",
+    "price": 12.99,
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=600",
+    "category": "Food",
+    "description": "Juicy grilled beef patty with melted cheddar cheese, fresh lettuce, and tomato."
+  },
+  {
+    "id": 2,
+    "title": "Crispy French Fries",
+    "price": 4.5,
+    "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?q=80&w=600",
+    "category": "Food",
+    "description": "Golden and crunchy french fries lightly salted, served with ketchup."
+  },
+  {
+    "id": 3,
+    "title": "Pepperoni Pizza",
+    "price": 15.99,
+    "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?q=80&w=600",
+    "category": "Food",
+    "description": "Loaded with premium pepperoni slices, mozzarella cheese, and tomato sauce."
+  },
+  {
+    "id": 4,
+    "title": "Fresh Orange Juice",
+    "price": 3.99,
+    "image": "https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?q=80&w=600",
+    "category": "Drinks",
+    "description": "100% freshly squeezed sweet oranges, packed with Vitamin C."
+  },
+  {
+    "id": 5,
+    "title": "Fettuccine Alfredo",
+    "price": 14.25,
+    "image": "https://images.unsplash.com/photo-1645112411341-6c4fd023714a?q=80&w=600",
+    "category": "Food",
+    "description": "Creamy Alfredo sauce tossed with tender pasta and grilled chicken breast."
+  },
+  {
+    "id": 6,
+    "title": "Strawberry Mojito",
+    "price": 4.99,
+    "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=600",
+    "category": "Drinks",
+    "description": "Refreshing blend of fresh strawberries, mint leaves, lime, and soda."
+  },
+  {
+    "id": 7,
+    "title": "Crunchy Chicken Zinger",
+    "price": 11.5,
+    "image": "https://images.unsplash.com/photo-1625813506062-0aeb1d7a094b?q=80&w=600",
+    "category": "Food",
+    "description": "Spicy crispy fried chicken breast with lettuce and mayonnaise."
+  },
+  {
+    "id": 8,
+    "title": "Mango Paradise Smoothie",
+    "price": 5.5,
+    "image": "https://images.unsplash.com/photo-1537734796389-e1fc293cf856?q=80&w=600",
+    "category": "Drinks",
+    "description": "Thick and creamy blend of ripe mangoes and fresh cold milk."
+  },
+  {
+    "id": 9,
+    "title": "Club Sandwich",
+    "price": 9.99,
+    "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?q=80&w=600",
+    "category": "Food",
+    "description": "Classic triple-decker sandwich with chicken, turkey, lettuce, and egg."
+  },
+  {
+    "id": 10,
+    "title": "Iced Caramel Macchiato",
+    "price": 5.25,
+    "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?q=80&w=600",
+    "category": "Drinks",
+    "description": "Rich espresso with cold milk and a sweet drizzle of caramel syrup."
+  },
+  {
+    "id": 11,
+    "title": "BBQ Chicken Wings",
+    "price": 8.99,
+    "image": "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?q=80&w=600",
+    "category": "Food",
+    "description": "Tender chicken wings tossed in rich, smoky BBQ barbecue sauce."
+  },
+  {
+    "id": 12,
+    "title": "Avocado Honey Shake",
+    "price": 6.0,
+    "image": "https://images.unsplash.com/photo-1541658016709-82535e94bc69?q=80&w=600",
+    "category": "Drinks",
+    "description": "Creamy avocado blended with milk and sweetened with natural honey."
+  },
+  {
+    "id": 13,
+    "title": "Grilled Salmon Fillet",
+    "price": 19.99,
+    "image": "https://images.unsplash.com/photo-1485921325833-c519f76c4927?q=80&w=600",
+    "category": "Food",
+    "description": "Perfectly seared salmon steak served with lemon herbs butter."
+  },
+  {
+    "id": 14,
+    "title": "Lemon Mint Juice",
+    "price": 3.5,
+    "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=600",
+    "category": "Drinks",
+    "description": "Zesty fresh lemon juice blended with ice and fresh green mint."
+  },
+  {
+    "id": 15,
+    "title": "Margherita Pizza",
+    "price": 12.5,
+    "image": "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?q=80&w=600",
+    "category": "Food",
+    "description": "Simple Italian classic with fresh mozzarella, basil, and tomato sauce."
+  },
+  {
+    "id": 16,
+    "title": "Chocolate Milkshake",
+    "price": 4.75,
+    "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=600",
+    "category": "Drinks",
+    "description": "Rich Belgian chocolate ice cream blended with cold milk and whipped cream."
+  },
+  {
+    "id": 17,
+    "title": "Crispy Chicken Strips",
+    "price": 8.5,
+    "image": "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?q=80&w=600",
+    "category": "Food",
+    "description": "Tender chicken breast strips breaded and fried to golden perfection."
+  },
+  {
+    "id": 18,
+    "title": "Watermelon Splash",
+    "price": 3.99,
+    "image": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?q=80&w=600",
+    "category": "Drinks",
+    "description": "Pure refreshing watermelon juice served ice cold, perfect for summer."
+  },
+  {
+    "id": 19,
+    "title": "Caesar Salad with Chicken",
+    "price": 9.25,
+    "image": "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?q=80&w=600",
+    "category": "Food",
+    "description": "Crisp romaine lettuce, grilled chicken, croutons, topped with parmesan."
+  },
+  {
+    "id": 20,
+    "title": "Oreo Extreme Shake",
+    "price": 5.99,
+    "image": "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?q=80&w=600",
+    "category": "Drinks",
+    "description": "Creamy vanilla shake blended with real Oreo cookies and chocolate syrup."
+  }
+]

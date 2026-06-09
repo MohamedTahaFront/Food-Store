@@ -1,0 +1,50 @@
+.Subscribe {
+  background-color: var(--primary);
+}
+.Subscribe .row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.Subscribe .image img {
+    object-fit: contain;
+    width: 500px;
+    max-width: 100%;
+}
+@media (max-width: 767px) {
+  .Subscribe .row {
+    grid-template-columns: 1fr;
+  }
+  .Subscribe .image {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.Subscribe .info {
+    text-align: center;
+}
+}
+.Subscribe .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.Subscribe .info p {
+  color: var(--secondary);
+}
+.Subscribe form {
+  position: relative;
+}
+.Subscribe form input {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: var(--border);
+}
+.Subscribe form button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5px;
+}

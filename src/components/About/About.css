@@ -1,0 +1,24 @@
+.About .row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.About .row img {
+  object-fit: contain;
+  width: 100%;
+}
+.About .info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (max-width: 767px) {
+  .About .row {
+    grid-template-columns: 1fr;
+  }
+  .About .info {
+    align-items: center;
+    text-align: center;
+  }
+}

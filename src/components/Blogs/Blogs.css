@@ -1,0 +1,46 @@
+.Blogs {
+  background-color: var(--secondary-bg);
+}
+.Blogs .row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+@media (max-width: 767px) {
+  .Blogs .row {
+    grid-template-columns: 1fr;
+  }
+}
+.Blogs .card {
+  background-color: var(--white);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  border-radius: 6px;
+  transition: 0.3s;
+}
+.Blogs .card * {
+  transition: 0.3s;
+}
+.Blogs .card:hover {
+  box-shadow: var(--primary) 0px 1px 5px;
+  border-radius: 12px;
+}
+.Blogs .image {
+  overflow: hidden;
+}
+.Blogs .image img {
+  width: 100%;
+  display: block;
+}
+.Blogs .card:hover img {
+  scale: 1.1;
+}
+.Blogs .card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.Blogs .card:hover h3 {
+  color: var(--primary);
+}

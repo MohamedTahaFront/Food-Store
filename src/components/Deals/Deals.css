@@ -1,0 +1,42 @@
+.Deals {
+  background:
+    linear-gradient(rgba(33, 37, 41, 0.9), rgba(23, 17, 21, 0.8)),
+    url(../../assets/images/food-table.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+.Deals * {
+  color: var(--white);
+}
+.Deals .row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+@media (max-width: 901px) {
+  .Deals .row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 767px) {
+  .Deals .row {
+    grid-template-columns: 1fr;
+  }
+}
+.Deals .box {
+  background-color: var(--primary);
+  color: var(--white) !important;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 6px;
+  transition: var(--transition);
+}
+.Deals .box h3 {
+  font-weight: normal;
+}
+.Deals .box:hover {
+  border-radius: 0;
+}

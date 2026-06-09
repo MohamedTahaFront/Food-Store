@@ -1,0 +1,83 @@
+:root {
+  --primary: #eebf00;
+  --secondary: #212529;
+  --bg-nav-footer: #2d333f;
+  --main-bg: #fff;
+  --secondary-bg: #f0f0f0;
+  --muted: #6c6c6c;
+  --white: #fff;
+  --transition: all 0.3s ease-in-out;
+  --border: 1px solid #f0f0f0;
+  --shadow-card: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.Footer {
+  background-color: var(--bg-nav-footer);
+}
+.Footer * {
+  color: var(--white);
+}
+.Footer .row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+@media (max-width: 901px) {
+  .Footer .row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 767px) {
+  .Footer .row {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+}
+
+.Footer .box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+}
+@media (max-width: 767px) {
+  .Footer .box {
+    text-align: start;
+    align-items: start;
+  }
+}
+.Footer .box h3 {
+  border-bottom: 1px solid var(--primary);
+  padding-bottom: 20px;
+  width: 100%;
+}
+.Footer .links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Footer .links a {
+  transition: 0.3s;
+}
+.Footer .links a:hover {
+  color: var(--primary);
+}
+.Footer .media li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.Footer .gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+@media (max-width: 767px) {
+  .Footer .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.Footer .gallery img {
+  max-width: 100%;
+  object-fit: contain;
+}

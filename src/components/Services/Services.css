@@ -1,0 +1,51 @@
+.Services {
+  background-color: var(--secondary-bg);
+}
+.Services .row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.Services .card {
+  position: relative;
+  padding: 60px 15px 30px;
+  background-color: var(--white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 6px;
+  border: var(--border);
+  box-shadow: var(--shadow-card);
+  transition: var(--transition);
+}
+.Services .card:hover {
+    border-radius: 12px;
+    box-shadow: var(--secondary) 0px 0px 5px 2.5px;
+}
+.Services .card.warning:hover {
+    box-shadow: var(--primary) 0px 0px 5px 2.5px;
+}
+.Services .card img {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  top: -45px;
+  transition: var(--transition);
+}
+.Services .card:hover img {
+    transform: translateY(-10px);
+}
+
+@media (max-width: 901px) {
+  .Services .row {
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 60px;
+  }
+}
+@media (max-width: 767px) {
+  .Services .row {
+    grid-template-columns: 1fr;
+  }
+}
