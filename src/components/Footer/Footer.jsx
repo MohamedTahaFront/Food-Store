@@ -1,6 +1,6 @@
 import "./Footer.css";
 import { FaFacebookF, FaTwitter, FaInstagram, FaGoogle } from "react-icons/fa6";
-import gallery from '../../assets/images/food-table.jpg'
+import gallery from '../../assets/images/food-table.webp'
 function Footer() {
   return (
     <div className="Footer py">
