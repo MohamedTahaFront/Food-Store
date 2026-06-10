@@ -1,7 +1,7 @@
 .Deals {
   background:
     linear-gradient(rgba(33, 37, 41, 0.9), rgba(23, 17, 21, 0.8)),
-    url(../../assets/images/food-table.jpg) no-repeat center fixed;
+    url(../../assets/images/food-table.webp) no-repeat center fixed;
   background-size: cover;
 }
 .Deals * {
